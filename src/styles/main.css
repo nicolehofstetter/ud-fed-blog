@@ -1,28 +1,80 @@
 /*At least 3 imports*/
 @import "./reset.css";
-@import "./header.css";
+@import "navigation.css";
+@import "blog-post-card.css";
 /*@import "./";*/
 
 
 /*Typography*/
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
 
 h1 {
-
+    font-family: Roboto-Light;
+    font-size: 5.25rem;
+    margin: 3rem 0 3rem 0;
+    text-align: center;
 }
 
 h2 {
-
+    font-size: 2.25rem;
+    font-family: Roboto-Light;
+    /*margin: 1rem 0 1rem 0;*/
 }
 
 h3 {
+    font-size: 1.125rem;
+    font-family: Roboto-Regular;
+    margin: 0.5rem 0 0.5rem 0;
 
 }
 
-p {
-
+p, a, button {
+    font-size: 1rem;
+    font-family: Roboto-Medium;
+    margin: 0.625rem 0 0.625rem 0;
 }
 
 q {
 
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 70px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+            "header header header"
+            "content content content"
+            "footer footer footer";
+}
+
+header {
+    background-color: #436228;
+    grid-area: header;
+}
+
+#content {
+    background-color: #F8F5E3;
+    grid-area: content;
+}
+
+footer {
+    background-color: #436228;
+    grid-area: footer;
+}
+

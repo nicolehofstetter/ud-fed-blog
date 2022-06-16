@@ -1,9 +1,6 @@
-header {
-    background-color: #436228;
-}
 
 nav {
-    height: 100px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -28,7 +25,7 @@ nav {
 .nav-item__link {
     text-decoration: none;
     text-align: center;
-    color: #99B927;
+    color: #E8DCA2;
     font-size: 32px;
     display: table-cell;
     vertical-align: middle;
@@ -36,5 +33,5 @@ nav {
 }
 
 .nav-item__link:hover {
-    color: #ffffff;
+    color: #FAF9F6;
 }
