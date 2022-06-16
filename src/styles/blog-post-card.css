@@ -45,6 +45,7 @@
     grid-area: button;
     background-color: #436228;
     border-radius: 10px;
+    text-align: center;
 }
 
 #post-image-1 {
