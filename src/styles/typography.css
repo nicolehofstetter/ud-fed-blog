@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: "Roboto-Italic";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
     font-family: "Roboto-Light";
     src: url(../fonts/Roboto-Light.ttf);
 }
@@ -36,6 +46,13 @@ p, a, button {
 
 }
 
+b {
+    font-family: Roboto-Bold;
+}
+
+em {
+    font-family: Roboto-Italic;
+}
 
 @media (min-width: 900px) {
     h1 {
