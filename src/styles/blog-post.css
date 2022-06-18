@@ -12,6 +12,14 @@
     width: 80%;
     margin-bottom: 50px;
 }
+figure {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+}
 
 .post-image {
     height: 400px;
@@ -19,3 +27,4 @@
     border-radius: 32px;
     background-size: cover;
 }
+
