@@ -1,0 +1,15 @@
+#content-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#content-container img {
+    height: 300px;
+    width: auto;
+    border: 20px solid #FAF9F6;
+    border-radius: 50%;
+    background-color: #FAF9F6;
+}
