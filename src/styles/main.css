@@ -1,7 +1,6 @@
 /*At least 3 imports*/
 @import "./reset.css";
 @import "navigation.css";
-@import "blog-post-card.css";
 /*@import "./";*/
 
 
@@ -73,6 +72,22 @@ header {
 footer {
     background-color: #436228;
     grid-area: footer;
+}
+
+#post-image-1 {
+    background-image: url("../images/blog-post-1.jpg");
+}
+
+#post-image-2 {
+    background-image: url("../images/blog-post-2.jpg");
+}
+
+#post-image-3 {
+    background-image: url("../images/blog-post-3.jpg");
+}
+
+#post-image-4 {
+    background-image: url("../images/blog-post-4.jpg");
 }
 
 @media (min-width: 900px) {
