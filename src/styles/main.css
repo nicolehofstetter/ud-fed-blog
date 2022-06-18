@@ -2,6 +2,7 @@
 @import "navigation.css";
 @import "typography.css";
 @import "images.css";
+@import "social-media.css";
 
 body {
     width: 100vw;
